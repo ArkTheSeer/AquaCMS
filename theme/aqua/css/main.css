@@ -1,0 +1,107 @@
+/* ---------------------------------------- */
+/*  The Main Style                          */
+/* ---------------------------------------- */
+@font-face {
+  font-family: 'SansationLight';
+  src: url('font/Sansation_Light-webfont.eot');
+  src: url('font/Sansation_Light-webfont.eot?#iefix') format('embedded-opentype'), url('font/Sansation_Light-webfont.woff') format('woff'), url('font/Sansation_Light-webfont.ttf') format('truetype'), url('font/Sansation_Light-webfont.svg#SansationLight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SansationBold';
+  src: url('font/Sansation_Bold-webfont.eot');
+  src: url('font/Sansation_Bold-webfont.eot?#iefix') format('embedded-opentype'), url('font/Sansation_Bold-webfont.woff') format('woff'), url('font/Sansation_Bold-webfont.ttf') format('truetype'), url('font/Sansation_Bold-webfont.svg#SansationBold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+::-moz-selection {
+ background: #b3d4fc;
+ text-shadow: none;
+}
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background: #eee;
+  color: #444;
+  overflow: visible;
+  font-size: 14px
+}
+/* ---------------------------------------- */
+/*  Typography                              */
+/* ---------------------------------------- */
+h1,
+h2 {
+  margin: 0;
+  padding: 0
+}
+h1 {
+  font-size: 150%;
+  font-weight: normal;
+  text-align: center;
+  padding: 0 0 5px 0;
+  color: #666;
+  font-family: 'SansationLight', Helvetica, Arial, sans-serif
+}
+h1 strong {
+  color: #000;
+  font-family: 'SansationBold', Helvetica, Arial, sans-serif;
+}
+h2 {
+  font-family: 'SansationBold', Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 10px 0 20px 0;
+  color: #333;
+  font-size: 150%
+}
+p {
+  padding: 0 0 0.5em 0;
+  line-height: 1.3em;
+  text-align: justify
+}
+a,
+a:link,
+a:visited {
+  color: #009174;
+  text-decoration: none
+}
+a:hover,
+a:active { color: #00d3a9 }
+/* ---------------------------------------- */
+/*  Basic classes                           */
+/* ---------------------------------------- */
+.center { text-align: center }
+/* ---------------------------------------- */
+/*  Header                                  */
+/* ---------------------------------------- */
+header {
+    max-width: 970px;
+    margin: 0 auto; padding: 10px;
+    text-align: center
+}
+/* ---------------------------------------- */
+/*  Page section                            */
+/* ---------------------------------------- */
+section#page {
+  max-width: 970px;
+  margin: 0 auto;
+  padding: 0 20px;
+  overflow: hidden;
+  position: relative
+}
+/* ---------------------------------------- */
+/*  Footer section                          */
+/* ---------------------------------------- */
+
+/* ---------------------------------------- */
+/*  Individual pages                        */
+/* ---------------------------------------- */
+/*  Frontpage                               */
+/* ---------------------------------------- */
