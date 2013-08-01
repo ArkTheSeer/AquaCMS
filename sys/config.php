@@ -14,21 +14,21 @@ foreach(array(
     'CONF_DB_AUTO_CREATE'           =>  true,
     // connection data
     'CONF_DB'                       =>  'localhost',
-    'CONF_DB_NAME'                  =>  'allatmenhely',
+    'CONF_DB_NAME'                  =>  'database',
     'CONF_DB_USER'                  =>  'root',
     'CONF_DB_PASSWORD'              =>  '',
     'CONF_DB_PREFIX'                =>  false,
     // these are overwritten by database options when present
     // give a MySQL collation by default
-    'CONF_DB_COLLATION'             =>  'utf8_hungarian_ci',
+    'CONF_DB_COLLATION'             =>  false,
     // set names in MySQL by default
-    'CONF_DB_SET_NAMES'             =>  'latin2',
+    'CONF_DB_SET_NAMES'             =>  false,
     // basic defaults for the site
     'SITE_NAME'                     =>  'MyNewSite',
     'SITE_TITLE'                    =>  'MyNewSite',
     'SITE_DESCRIPTION'              =>  false,
     'SITE_KEYWORDS'                 =>  false,
-    'SITE_URL'                      =>  'http://127.0.0.1',
+    'SITE_URL'                      =>  'http://localhost,
     
     'SITE_OWNER'                    =>  false,
     'SITE_OWNER_EMAIL'              =>  false,
