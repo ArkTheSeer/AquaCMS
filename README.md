@@ -14,3 +14,11 @@ It has many features I would like to add to it, for example:
 - User manager with roles and restrictions
 - Ajax form maker with fallback
 - Simple but awesome starter theme
+- An automatic installer
+
+To start off, you must:
+
+1. Go to the folder 'sys' and open the 'config.php' file.
+2. There you can set up everything (the comments lead you)
+3. If you want your site to use database, you must set that up.
+4. If you want your site to be file based, you must set up the 'pages' folder with a '_meta.php' file, example soon.
